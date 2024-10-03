@@ -64,7 +64,7 @@ const Navbar = () => {
         {/* MOBILE NAVIGATION */}
         {isMobileMenu && (
           <div className="md:hidden">
-            <ul className="flex flex-col justify-center items-center gap-4 text-xl font-semibold">
+            <ul className="py-4 flex flex-col justify-center items-center gap-4 text-xl font-semibold">
               <li
                 className=" hover:bg-primary rounded-md p-2 ease-in duration-200"
                 onClick={() => setIsMobileMenu((prev) => !prev)}
