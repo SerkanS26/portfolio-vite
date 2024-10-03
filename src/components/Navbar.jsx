@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <section
       id="navbar"
-      className="py-6 bg-dark text-light w-full sticky top-0 z-50 ease-in duration-300 shadow-md shadow-slate-700 md:px-14"
+      className="px-4 py-6 bg-dark text-light w-full sticky top-0 z-50 ease-in duration-300 shadow-md shadow-slate-700 md:px-14"
     >
       <nav className="flex flex-col justify-between container mx-auto md:flex-row md:items-center">
         <div className="flex items-center justify-between">
